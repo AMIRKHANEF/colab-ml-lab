@@ -179,3 +179,29 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets and generated artifacts
+data/
+checkpoints/
+outputs/figures/
+outputs/metrics/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# IDE
+.vscode/
